@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Garage Saint-Louis</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="assets/Logo.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+          
+        <!-- Bootstrap JS + Dependencies (jQuery & Popper.js) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="avis.js" defer></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>    
+    </head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="Accueil.html">
+                <img class="header-img" src="Images/Logo GSL.png" alt="Garage Auto Logo">
+            </a>
+            <div class="promotion-header">
+                <h1 class="promotion-title">Promotions en Cours</h1>
+                <a href="Contact.html" class="button">Profitez-en maintenant</a>
+            </div>
+            <nav>
+                <a class="menu" href="Accueil.html">Accueil</a>
+                <a class="menu" href="Apropos.html">À propos</a>
+                <a class="menu" href="Accueil.html#services" id="nav-services">Services</a>
+                <a class="menu" href="Blog.html">Blog</a>
+                <a class="menu" href="Contact.html">Contactez-nous</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section primary" style="margin-top: 100px;">
+        <div class="container">
+            <h1 class="Titre_h1 text-center mb-5">Service de Remorquage</h1>
+            <p>Nous offrons un service de remorquage 24/7 pour vous assister en cas de panne, d'accident ou de besoin de transport de véhicule. Nos équipes qualifiées sont prêtes à intervenir rapidement.</p>
+            <div class="services-list">
+                <div class="card">
+                    <img src="Images/remorquage_urgence.jpg" alt="Remorquage d'urgence" class="card-img">
+                    <h2 class="card-title">Remorquage d'urgence</h2>
+                    <p class="card-description">Prix : 100 $</p>
+                    <p class="card-description">Assistance immédiate en cas d’urgence sur la route, disponible jour et nuit.</p>
+                    <a href="Reservation.html?service=Remorquage&subService=Remorquage d'urgence" class="btn btn-primary">Prendre rendez-vous</a>
+                </div>
+                <div class="card">
+                    <img src="Images/longue_distance.jpg" alt="Remorquage longue distance" class="card-img">
+                    <h2 class="card-title">Remorquage longue distance</h2>
+                    <p class="card-description">Prix : Sur demande</p>
+                    <p class="card-description">Service de remorquage pour des trajets de plus de 50 km. Tarifs compétitifs.</p>
+                    <a href="Reservation.html?service=Remorquage&subService=Remorquage longue distance" class="btn btn-primary">Prendre rendez-vous</a>
+                </div>
+                <div class="card">
+                    <img src="Images/enlevement_vehicule.jpg" alt="Enlèvement de véhicule" class="card-img">
+                    <h2 class="card-title">Enlèvement de véhicule</h2>
+                    <p class="card-description">Prix : 75 $</p>
+                    <p class="card-description">Retrait de véhicules abandonnés ou non opérationnels.</p>
+                    <a href="Reservation.html?service=Remorquage&subService=Enlèvement de véhicule" class="btn btn-primary">Prendre rendez-vous</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <h3>À Propos</h3>
+                <p>Blog dédié à la mécanique automobile pour vous aider à mieux entretenir votre véhicule et à comprendre les signes avant-coureurs des pannes.</p>
+            </div>
+            <div>
+                <h3>Liens Utiles</h3>
+                <ul>
+                    <li><a href="Accueil.html">Accueil</a></li>
+                    <li><a href="Apropos.html">À propos</a></li>
+                    <li><a href="Mecanique.html">Mécanique</a></li>
+                    <li><a href="Remorquage.html">Remorquage</a></li>
+                    <li><a href="Laverie.html">Car-Wash</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contactez-nous</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Rue Principale, Saint-Louis de Gonzague, Québec, Canada</p>
+                <p><i class="fas fa-phone"></i> +123 456 789</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@garageauto.com">info@garageauto.com</a></p>
+            </div>
+            <div class="footer-social">
+                <h3>S’abonner à la Newsletter</h3>
+                <div class="input-combined mb-2">
+                    <input type="text" class="form-control" placeholder="Votre email" aria-label="Votre Email" aria-describedby="button-addon2">
+                    <button class="btn btn-white" type="button" id="button-addon2">S'abonner</button>
+                </div>
+                <ul class="social-media">
+                    <li><a href="#" style="color: #3b5998;"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" style="color: #55acee;"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" style="color: #e4405f;"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" style="color: #007bb5;"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-center mt-3">&copy; 2024 Garage Saint-Louis. Tous droits réservés.<a href="Politique.html">Politique de Confidentialité</a></p>
+    </footer>
+</body>
+</html>

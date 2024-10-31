@@ -1,0 +1,173 @@
+<!DOCTYPE html> 
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Garage Saint-Louis</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="assets/Logo.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+          
+        <!-- Bootstrap JS + Dependencies (jQuery & Popper.js) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="avis.js" defer></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>    
+    </head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="Accueil.html">
+                <img class="header-img" src="Images/Logo GSL.png" alt="Garage Auto Logo">
+            </a>
+            <div class="promotion-header">
+                <h1 class="promotion-title">Promotions en Cours</h1>
+                <a href="Contact.html" class="button">Profitez-en maintenant</a>
+            </div>
+            <nav>
+                <a class="menu" href="Accueil.html">Accueil</a>
+                <a class="menu" href="Apropos.html">À propos</a>
+                <a class="menu" href="Accueil.html#services" id="nav-services">Services</a>
+                <a class="menu" href="Blog.html">Blog</a>
+                <a class="menu" href="Contact.html">Contactez-nous</a>
+            </nav>
+        </div>
+    </header>
+
+    <style>
+        /* Responsive layout */
+        @media (max-width: 1000px) {
+            .row {
+                flex-direction: column-reverse;
+            }
+
+            .content p {
+                font-size: 16px;
+            }
+        }
+    </style>
+
+    <section class="section primary" style="margin-top: 100px;">
+        <div class="container">
+            <h1 class="Titre_h1 text-center mb-5">Notre Histoire</h1>
+    
+            <div class="row align-items-center gx-5">
+                <!-- Image Section -->
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="Images/Historique.jpeg" class="img-fluid rounded shadow-lg" 
+                             alt="Historique de Bilik Farm">
+                    </div>
+                </div>
+    
+                <!-- Text Content Section -->
+                <div class="col-md-6">
+                    <div class="content">
+                        <p class="mb-4" style="font-size: 18px; line-height: 1.8;">
+                            Le Garage Saint-Louis joue un rôle crucial dans la ville de 
+                            <strong>Saint-Louis-de-Gonzague</strong>, en étant l'unique garage disponible pour les résidents. 
+                            Dans cette communauté, où les déplacements en voiture sont essentiels pour le quotidien, 
+                            le Garage Saint-Louis est bien plus qu'un simple lieu de réparation.
+                        </p>
+    
+                        <p style="font-size: 18px; line-height: 1.8;">
+                            Sans ce garage, les habitants devraient parcourir de longues distances pour obtenir des services 
+                            de mécanique, ce qui compliquerait grandement leur quotidien. Nous répondons ainsi 
+                            à un besoin vital en offrant des <strong>services de mécanique générale</strong>, d'entretien et de réparation, 
+                            garantissant ainsi que les véhicules des résidents restent en bon état, en toute saison. Son 
+                            existence permet non seulement de maintenir la fluidité des déplacements, mais aussi de renforcer 
+                            la sécurité routière au sein de la ville. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="section secondary">
+        <div class="container">
+            <h1 class="Titre_h1">Notre Équipe</h1>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="Images/Paul.jpeg" alt="Membre de l'équipe">
+                    <p><strong>Paul Quentin Ondoa - Propriétaire</strong></p>
+                </div>
+                <div class="team-member">
+                    <img src="Images/Jean.jpg" alt="Membre de l'équipe">
+                    <p><strong>Jean Dupont - Mécanicien en chef</strong></p>
+                </div>
+                <div class="team-member">
+                    <img src="Images/Karim.jpg" alt="Membre de l'équipe">
+                    <p><strong>Karim Ben Said - Mécanicien</strong></p>
+                </div>
+                <div class="team-member">
+                    <img src="Images/Marie.jpg" alt="Membre de l'équipe">
+                    <p><strong>Marie Tremblay - Service clients</strong></p>
+                </div>
+                <div class="team-member">
+                    <img src="Images/Clemence.jpg" alt="Membre de l'équipe">
+                    <p><strong>Clémence Tchaiwou - Responsable financiere</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <h3>À Propos</h3>
+                <p>Blog dédié à la mécanique automobile pour vous aider à mieux entretenir votre véhicule et à comprendre les signes avant-coureurs des pannes.</p>
+            </div>
+            <div>
+                <h3>Liens Utiles</h3>
+                <ul>
+                    <li><a href="Accueil.html">Accueil</a></li>
+                    <li><a href="Apropos.html">À propos</a></li>
+                    <li><a href="Mecanique.html">Mécanique</a></li>
+                    <li><a href="Remorquage.html">Remorquage</a></li>
+                    <li><a href="Laverie.html">Car-Wash</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contactez-nous</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Rue Principale, Saint-Louis de Gonzague, Québec, Canada</p>
+                <p><i class="fas fa-phone"></i> +123 456 789</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@garageauto.com">info@garageauto.com</a></p>
+            </div>
+            <div class="footer-social">
+                <h3>S’abonner à la Newsletter</h3>
+                <div class="input-combined mb-2">
+                    <input type="text" class="form-control" placeholder="Votre email" aria-label="Votre Email" aria-describedby="button-addon2">
+                    <button class="btn btn-white" type="button" id="button-addon2">S'abonner</button>
+                </div>
+                <ul class="social-media">
+                    <li><a href="#" style="color: #3b5998;"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" style="color: #55acee;"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" style="color: #e4405f;"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" style="color: #007bb5;"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-center mt-3">&copy; 2024 Garage Saint-Louis. Tous droits réservés.<a href="Politique.html">Politique de Confidentialité</a></p>
+    </footer>
+      <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/66ba6f580cca4f8a7a751b65/1i5445sr9';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+</body>
+</html>

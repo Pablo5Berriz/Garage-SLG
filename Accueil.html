@@ -1,0 +1,769 @@
+<!DOCTYPE html> 
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garage Saint-Louis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/Logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+      
+    <!-- Bootstrap JS + Dependencies (jQuery & Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="avis.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>    
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="Accueil.html">
+                <img class="header-img" src="Images/Logo GSL.png" alt="Garage Auto Logo">
+            </a>
+            <div class="promotion-header">
+                <h1 class="promotion-title">Promotions en Cours</h1>
+                <a href="Contact.html" class="button">Profitez-en maintenant</a>
+            </div>
+            <nav>
+                <a class="menu" href="Accueil.html" data-page="Accueil" id="nav-accueil">Accueil</a>
+                <a class="menu" href="Apropos.html" data-page="Apropos" id="nav-apropos">À propos</a>
+                <a class="menu" href="#services" id="nav-services">Services</a>
+                <a class="menu" href="Blog.html" data-page="Contact" id="nav-contact">Blog</a>
+                <a class="menu" href="Contact.html" data-page="Contact" id="nav-contact">Contactez-nous</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section primary">
+        <div class="container_img-t">
+            <img src="Images/Accueil.jpg" alt="Logo Garage Saint-Louis">
+            <div class="text">
+                <h1 style="color:#c70c0c;">Bienvenue au Garage Saint-Louis</h1>
+                <p style="font-size: 35px;"><strong>Votre garage local, au service de votre véhicule.</strong></p>
+                <a href="Contact.html" class="button button-primary" title="Contactez-nous">Contactez-nous</a>
+                </button>
+                <a href="Apropos.html" class="button button-secondary" title="En savoir plus">
+                    <strong>En savoir plus</strong>
+                </a>   
+            </div>
+        </div>
+    </section>
+    
+    <section id="services" class="section secondary" style="margin-top: 100px;">
+        <div class="container">
+            <h1 class="Titre_h1">Nos Services</h1>
+            <ul class="services-list" style="margin-top: 50px;">
+                <li>
+                    <a href="Mecanique.html">
+                        <div class="card">
+                            <img src="Images/Mecanique.png" alt="Inspection générale" class="card-img">
+                            <p class="card-title"><a href="Mecanique.html">Mécanique Générale</a></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="Remorquage.html">
+                        <div class="card">
+                            <img src="Images/Remorquage.jpg" alt="Remorquage" class="card-img">
+                            <p class="card-title"><a href="Remorquage.html">Remorquage</a></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="Laverie.html">
+                        <div class="card">
+                            <img src="Images/Laverie.jpg" alt="Laverie" class="card-img">
+                            <p class="card-title"><a href="Laverie.html">Car Wash</a></p>
+                        </div>
+                    </a>
+                </li> 
+            </ul>
+        </div>
+    </section>
+    <hr>
+
+    <section class="section primary" style="margin-top: 100px;">
+        <div class="container">
+            <h1 class="Titre_h1 text-center mb-5"> Prenez un abonnement chez Garage Saint-Louis</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-lg h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Abonnement Mensuel</h5>
+                            <h2 class="text-center">40 CAD</h2>
+                            <p class="text-center">Durée : 1 Mois</p>
+                            <ul class="list-unstyled mt-3" style="text-align: left;">
+                                <li><i class="fas fa-check-circle text-success"></i> Support téléphonique 24/7</li>
+                                <li><i class="fas fa-check-circle text-success"></i> Intervention rapide en cas de panne ou d’accident</li>                               
+                                <li><i class="fas fa-check-circle text-success"></i> Réduction de 10% sur les réparations</li>
+                                <li><i class="fas fa-check-circle text-success"></i> Assistance batterie et démarrage d’urgence</li>
+                                <li><i class="fas fa-check-circle text-success"></i> Service de remorquage illimité pendant 1 mois</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <form method="POST" action="">
+                                <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-lg h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Abonnement Trimestriel</h5>
+                            <h2 class="text-center">110 CAD</h2>
+                            <p class="text-center">Durée : 3 Mois</p>
+                            <ul class="list-unstyled mt-3" style="text-align: left;">
+                                <li><i class="fas fa-check-circle text-success"></i> Support téléphonique 24/7</li>
+                                <li><i class="fas fa-check-circle text-success"></i> Intervention rapide en cas de panne ou d’accident</li>                               
+                                <li><i class="fas fa-check-circle text-success"></i> Réduction de 15% sur tous les services du garage</li>
+                                <li><i class="fas fa-check-circle text-success"></i> 2 entretiens gratuits sur la période</li>
+                                <li><i class="fas fa-check-circle text-success"></i> Priorité lors de la prise en charge au garage</li>
+                                <li><i class="fas fa-check-circle text-success"></i> Service de remorquage illimité pendant 3 mois</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <form method="POST" action="">
+                                <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-lg h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Abonnement Annuel</h5>
+                            <h2 class="text-center">420 CAD</h2>
+                            <p class="text-center">Durée : 12 Mois</p>
+                            <ul class="list-unstyled mt-3" style="text-align: left;">
+                                <li><i class="fas fa-check-circle text-success"></i> Support téléphonique 24/7</li>
+                                <li><i class="fas fa-check-circle text-success"></i> Intervention rapide en cas de panne ou d’accident</li>                               
+                                <li><i class="fas fa-check-circle text-success"></i> Réductions exclusives jusqu’à 25% sur les réparations</li>
+                                <li><i class="fas fa-check-circle text-success"></i> 5 entretiens gratuits dans l’année</li>
+                                <li><i class="fas fa-check-circle text-success"></i> Accès prioritaire à tous les services du garage</li>
+                                <li><i class="fas fa-check-circle text-success"></i> Véhicule de courtoisie pendant les réparations</li>
+                                <li><i class="fas fa-check-circle text-success"></i> Révision technique complète offerte en fin d’année</li>
+                                <li><i class="fas fa-check-circle text-success"></i> Service de remorquage illimité pendant 12 mois</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <form method="POST" action="">
+                                <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section secondary">
+        <div class="container">
+            <h1 class="Titre_h1 text-center mb-5">Avis des clients</h1>
+            <div id="carouselAvis" class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <!-- Card 1 -->
+                            <div class="col-md-4">
+                                <div class="card shadow-lg h-100 border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="fas fa-user-circle fa-3x text-primary me-3"></i>
+                                            <div>
+                                                <h4 class="mb-0">Jean-Paul D.</h4>
+                                                <small class="text-muted">Publié le 5 septembre 2025</small>
+                                            </div>
+                                        </div>
+                                        <div class="stars text-warning mb-3">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p class="card-text text-muted">
+                                            « Très satisfait du service. Mon véhicule tourne comme une horloge ! »
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Card 2 -->
+                            <div class="col-md-4">
+                                <div class="card shadow-lg h-100 border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="fas fa-user-circle fa-3x text-primary me-3"></i>
+                                            <div>
+                                                <h4 class="mb-0">Mireille V.</h4>
+                                                <small class="text-muted">Publié le 12 octobre 2025</small>
+                                            </div>
+                                        </div>
+                                        <div class="stars text-warning mb-3">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <p class="card-text text-muted">
+                                            « Remorquage en pleine nuit, impeccable et rapide ! »
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Card 3 -->
+                            <div class="col-md-4">
+                                <div class="card shadow-lg h-100 border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="fas fa-user-circle fa-3x text-primary me-3"></i>
+                                            <div>
+                                                <h4 class="mb-0">Sarah M.</h4>
+                                                <small class="text-muted">Publié le 22 août 2025</small>
+                                            </div>
+                                        </div>
+                                        <div class="stars text-warning mb-3">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="card-text text-muted">
+                                            « Super équipe ! Ils ont changé mes freins en moins d'une heure. »
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <!-- Card 4 -->
+                            <div class="col-md-4">
+                                <div class="card shadow-lg h-100 border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="fas fa-user-circle fa-3x text-primary me-3"></i>
+                                            <div>
+                                                <h4 class="mb-0">Karim T.</h4>
+                                                <small class="text-muted">Publié le 18 août 2025</small>
+                                            </div>
+                                        </div>
+                                        <div class="stars text-warning mb-3">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="card-text text-muted">
+                                            « Mon SUV n'a jamais été aussi propre. Excellent lavage ! »
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Card 5 -->
+                            <div class="col-md-4">
+                                <div class="card shadow-lg h-100 border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="fas fa-user-circle fa-3x text-primary me-3"></i>
+                                            <div>
+                                                <h4 class="mb-0">Patrick G.</h4>
+                                                <small class="text-muted">Publié le 18 août 2025</small>
+                                            </div>
+                                        </div>
+                                        <div class="stars text-warning mb-3">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="card-text text-muted">
+                                            « L'équipe est rapide et minutieuse. Je recommande à 100 % ! »
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Card 6 -->
+                            <div class="col-md-4">
+                                <div class="card shadow-lg h-100 border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="fas fa-user-circle fa-3x text-primary me-3"></i>
+                                            <div>
+                                                <h4 class="mb-0">Marine L.</h4>
+                                                <small class="text-muted">Publié le 5 novembre 2025</small>
+                                            </div>
+                                        </div>
+                                        <div class="stars text-warning mb-3">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <p class="card-text text-muted">
+                                            « Meilleur lave-auto en ville ! Je suis toujours satisfaite. »
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <!-- Card 7 -->
+                            <div class="col-md-4">
+                                <div class="card shadow-lg h-100 border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="fas fa-user-circle fa-3x text-primary me-3"></i>
+                                            <div>
+                                                <h4 class="mb-0">David P.</h4>
+                                                <small class="text-muted">Publié le 10 décembre 2025</small>
+                                            </div>
+                                        </div>
+                                        <div class="stars text-warning mb-3">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <p class="card-text text-muted">
+                                            « Garage compétent. L’entretien de ma voiture se passe toujours bien ici. »
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 8 -->
+                            <div class="col-md-4">
+                                <div class="card shadow-lg h-100 border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="fas fa-user-circle fa-3x text-primary me-3"></i>
+                                            <div>
+                                                <h4 class="mb-0">Céline V.</h4>
+                                                <small class="text-muted">Publié le 15 janvier 2026</small>
+                                            </div>
+                                        </div>
+                                        <div class="stars text-warning mb-3">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="card-text text-muted">
+                                            « Leur abonnement de remorquage est parfait pour ma tranquillité. »
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 9 -->
+                            <div class="col-md-4">
+                                <div class="card shadow-lg h-100 border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="fas fa-user-circle fa-3x text-primary me-3"></i>
+                                            <div>
+                                                <h4 class="mb-0">Yannick T.</h4>
+                                                <small class="text-muted">Publié le 25 février 2026</small>
+                                            </div>
+                                        </div>
+                                        <div class="stars text-warning mb-3">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <p class="card-text text-muted">
+                                            « J’ai été remorqué un jour férié. Personnel très agréable et rapide ! »
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+    
+                    <!-- Slide 4 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">    
+                            <!-- Card 10 -->
+                            <div class="col-md-4">
+                                <div class="card shadow-lg h-100 border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="fas fa-user-circle fa-3x text-primary me-3"></i>
+                                            <div>
+                                                <h4 class="mb-0">François D.</h4>
+                                                <small class="text-muted">Publié le 3 mars 2026</small>
+                                            </div>
+                                        </div>
+                                        <div class="stars text-warning mb-3">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="card-text text-muted">
+                                            « Remorquage rapide et efficace. Ils sont arrivés en moins de 30 minutes ! »
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 11 -->
+                            <div class="col-md-4">
+                                <div class="card shadow-lg h-100 border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="fas fa-user-circle fa-3x text-primary me-3"></i>
+                                            <div>
+                                                <h4 class="mb-0">Sophie K.</h4>
+                                                <small class="text-muted">Publié le 18 avril 2026</small>
+                                            </div>
+                                        </div>
+                                        <div class="stars text-warning mb-3">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <p class="card-text text-muted">
+                                            « J’apprécie les forfaits adaptés à chaque type de véhicule. »
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 12 -->
+                            <div class="col-md-4">
+                                <div class="card shadow-lg h-100 border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="fas fa-user-circle fa-3x text-primary me-3"></i>
+                                            <div>
+                                                <h4 class="mb-0">Jean-Luc B.</h4>
+                                                <small class="text-muted">Publié le 1 mai 2026</small>
+                                            </div>
+                                        </div>
+                                        <div class="stars text-warning mb-3">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="card-text text-muted">
+                                            « Service impeccable ! Mon moteur tournait mal et ils ont trouvé la solution en un rien de temps. »
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAvis" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Précédent</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAvis" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Suivant</span>
+                    </button>
+        
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Section Localisation -->
+    <section class="section primary">
+        <div class="container"                                     >
+            <h1 class="Titre_h1">Localisez-nous</h1>
+            <div style="margin-top: 40px;">
+                <div class="map-container" style="position: relative; width: 100%; height: 100%;">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2810.735185586313!2d-74.0114459231334!3d45.212693971070905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc95b6a718dd257%3A0x2fda5905c178e799!2s206%20Rue%20Principale%2C%20Saint-Louis-de-Gonzague%2C%20QC%20J0S%201T0!5e0!3m2!1sfr!2sca!4v1729879364165!5m2!1sfr!2sca"
+                        style="border: 0; width: 100%; height: 800px;" 
+                        frameborder="0" 
+                        allowfullscreen 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+
+    <section class="section secondary">
+        <div class="container" style="text-align: start;">
+            <h1 class="Titre_h1">Rejoignez-nous sur les médias sociaux :</h3>
+            <div class="social-container" style="text-align: center;">
+                <ul class="social-icons">
+                    <li style="--clr: #0a66c2;">
+                        <a href="https://www.facebook.com/bilikfarm"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li style="--clr: #c50744;">
+                        <a href="https://www.instagram.com/bilikfarm"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li style="--clr: #df1010;">
+                        <a href="https://www.youtube.com/channel/UC_"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li style="--clr: #07af15;">
+                        <a href="https://www.whatsapp.com/bilikfarm"><i class="fab fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Section Contact -->
+    <section class="section primary">
+        <div class="row justify-content-center">
+            <h1 class="Titre_h1" style="text-align: center;">Contactez-nous</h1>
+            <div class="custom-col">
+                <h4 style="text-align: center;";">Besoin de nous contacter ? Remplissez le formulaire ci-dessous et nous vous répondrons dès que possible :</p>
+                <div class="card shadow-lg p-4">
+                    <div class="card-body">
+                        <form action="https://formspree.io/f/mzzpgogp" method="POST" enctype="multipart/form-data">
+                            <div class="form-outline mb-4" style="width: 500px;">
+                                <label class="form-label" for="name">Nom complet</label>
+                                <input type="text" id="name" name="name" class="form-control" required />
+                            </div>
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="email">Adresse e-mail</label>
+                                <input type="email" id="email" name="email" class="form-control" required />
+                            </div>
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="subject">Objet</label>
+                                <input type="text" id="subject" name="subject" class="form-control" required />
+                            </div>
+                            <div class="form-outline mb-6">
+                                <label class="form-label" for="message">Votre message</label>
+                                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="button  btn-primary  btn-block mb-4">
+                                    <span class="spinner-border spinner-border-sm d-none" id="spinner" role="status"></span>
+                                    Envoyer
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Carrousel d'Images -->
+    <section class="section secondary">
+        <h1 class="Titre_h1 text-center mb-5">Carousel d'images</h1>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <img src="Images/Carrousel/a.jpg" class="d-block w-100" alt="Image 1">
+                </div>
+    
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/b.jpg" class="d-block w-100" alt="Image 2">
+                </div>
+    
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/c.jpg" class="d-block w-100" alt="Image 3">
+                </div>
+    
+                <!-- Slide 4 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/d.jpg" class="d-block w-100" alt="Image 4">
+                </div>
+    
+                <!-- Slide 5 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/e.jpg" class="d-block w-100" alt="Image 5">
+                </div>
+    
+                <!-- Slide 6 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/f.jpg" class="d-block w-100" alt="Image 6">
+                </div>
+
+                <!-- Slide 7 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/g.jpg" class="d-block w-100" alt="Image 7">
+                </div>
+
+                <!-- Slide 8 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/h.jpg" class="d-block w-100" alt="Image 8">
+                </div>
+
+                <!-- Slide 9 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/i.jpg" class="d-block w-100" alt="Image 9">
+                </div>
+
+                <!-- Slide 10 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/j.jpg" class="d-block w-100" alt="Image 10">
+                </div>
+
+                <!-- Slide 11 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/k.jpg" class="d-block w-100" alt="Image 11">
+                </div>
+
+                <!-- Slide 12 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/l.jpg" class="d-block w-100" alt="Image 12">
+                </div>
+
+                <!-- Slide 13 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/m.jpg" class="d-block w-100" alt="Image 13">
+                </div>
+
+                <!-- Slide 14 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/n.jpg" class="d-block w-100" alt="Image 14">
+                </div>
+
+                <!-- Slide 15 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/o.jpg" class="d-block w-100" alt="Image 15">
+                </div>
+                <!-- Slide 16 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/p.jpg" class="d-block w-100" alt="Image 16">
+                </div>
+
+                <!-- Slide 17 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/q.jpg" class="d-block w-100" alt="Image 17">
+                </div>
+
+                <!-- Slide 18 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/r.jpg" class="d-block w-100" alt="Image 18">
+                </div>
+
+                <!-- Slide 19 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/s.jpeg" class="d-block w-100" alt="Image 19">
+                </div>
+
+                <!-- Slide 20 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/t.jpg" class="d-block w-100" alt="Image 20">
+                </div>
+
+                <!-- Slide 21 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/u.jpg" class="d-block w-100" alt="Image 21">
+                </div>
+
+                <!-- Slide 22 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/v.jpg" class="d-block w-100" alt="Image 22">
+                </div>
+
+                <!-- Slide 23 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/w.png" class="d-block w-100" alt="Image 23">
+                </div>
+
+                <!-- Slide 24 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/x.jpg" class="d-block w-100" alt="Image 24">
+                </div>
+
+                <!-- Slide 25 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/y.jpg" class="d-block w-100" alt="Image 25">
+                </div>
+
+                <!-- Slide 26 -->
+                <div class="carousel-item">
+                    <img src="Images/Carrousel/z.jpg" class="d-block w-100" alt="Image 26">
+                </div>
+            </div>
+ 
+            <!-- Contrôles du carousel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <h3>À Propos</h3>
+                <p>Blog dédié à la mécanique automobile pour vous aider à mieux entretenir votre véhicule et à comprendre les signes avant-coureurs des pannes.</p>
+            </div>
+            <div>
+                <h3>Liens Utiles</h3>
+                <ul>
+                    <li><a href="Accueil.html">Accueil</a></li>
+                    <li><a href="Apropos.html">À propos</a></li>
+                    <li><a href="Mecanique.html">Mécanique</a></li>
+                    <li><a href="Remorquage.html">Remorquage</a></li>
+                    <li><a href="Laverie.html">Car-Wash</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contactez-nous</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Rue Principale, Saint-Louis de Gonzague, Québec, Canada</p>
+                <p><i class="fas fa-phone"></i> +123 456 789</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@garageauto.com">info@garageauto.com</a></p>
+            </div>
+            <div class="footer-social">
+                <h3>S’abonner à la Newsletter</h3>
+                <div class="input-combined mb-2">
+                    <input type="text" class="form-control" placeholder="Votre email" aria-label="Votre Email" aria-describedby="button-addon2">
+                    <button class="btn btn-white" type="button" id="button-addon2">S'abonner</button>
+                </div>
+                <ul class="social-media">
+                    <li><a href="#" style="color: #3b5998;"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" style="color: #55acee;"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" style="color: #e4405f;"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" style="color: #007bb5;"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-center mt-3">&copy; 2024 Garage Saint-Louis. Tous droits réservés.<a href="Politique.html">Politique de Confidentialité</a></p>
+    </footer>
+
+      <!-- Script Tawk.to pour le chat en direct -->
+      <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/66ba6f580cca4f8a7a751b65/1i5445sr9';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+</body>
+</html>
